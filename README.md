@@ -1,3 +1,19 @@
+# Features
+- [x] Check if target_path file set
+- [x] Added toggle functionality to usercommand and keybind
+- [x] use `fzf` to get files
+- [x] File selected in search set as default for the length of the session or until searched again
+- [ ] If target path not set ask user if they want to create file in current dir
+- [ ] Offer to open up list of recent todo files and save choice for length of session
+
+# Notes
+There should be 3 modes of operation:
+1. todo.md or notes file in your cwd
+2. todo.md or notes file in another dir where you keep your notes
+3. arbitrary file to search for every time you open a new nvim instance
+
+Make file chosen through search persistent for the current project/cwd unless overwritten by another search
+
 # nvim-plugin-template
 
 Neovim plugin template; includes automatic documentation generation from README, integration tests with Busted, and linting with Stylua
